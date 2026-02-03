@@ -20,7 +20,13 @@ function tocarMidia() {
 }
 
 function proximaMidia() {
-  index = (index + 1) % midias.length;
+    index++;
+
+  // Se chegou ao fim da playlist, reinicia a página
+  if (index >= midias.length) {
+    location.reload();
+    return;
+  }
   tocarMidia();
 }
 

@@ -1,8 +1,5 @@
 const midias = [
-  { type: "image", src: "imagens/img1.jpg", tempo: 8000 },
-  { type: "image", src: "imagens/img2.png", tempo: 8000 },
-  { type: "video", src: "videos/video1.mp4" },
-  { type: "video", src: "videos/video2.mp4" }
+  { type: "video", src: "videos/segunraca_trabalho_ww1280_wh720_wr15.mp4" }
 ];
 
 let index = 0;

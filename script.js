@@ -1,4 +1,5 @@
 const midias = [
+    { type: "video", src: "videos/anivetsariantes fevereiro.mp4" },
     { type: "video", src: "videos/segunraca_trabalho_ww1280_wh720_wr15.mp4" },
     { type: "video", src: "videos/cipa_resultado_ww1280_wh720_wr15.mp4" }
 ];
